@@ -1,4 +1,4 @@
-# Shopify Orders ETL Pipeline
+# Sample Orders ETL Pipeline
 
 A Python ETL pipeline that turns raw Shopify order exports into clean, query-ready tables in **SQLite** or **SQL Server**.
 
