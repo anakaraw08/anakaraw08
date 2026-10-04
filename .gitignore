@@ -1,0 +1,19 @@
+# Python / virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets and local settings - never commit these
+.env
+
+# Pipeline outputs
+data/output/
+data/processed/
+logs/
+*.db
+
+# Raw data: real exports contain customer names, emails and addresses.
+# Only the synthetic sample file is allowed in the repo.
+data/raw/*
+!data/raw/orders_export.csv
+!data/raw/.gitkeep
