@@ -41,14 +41,6 @@ By default, data loads into `data/output/shop.db` (SQLite). To load into SQL Ser
 
 `data/raw/orders_export.csv` contains **synthetic** orders (fake names, `example.com` emails) in Shopify's export format, with realistic issues included on purpose: a duplicate row, inconsistent email formatting, and order fields that appear only on the first line item.
 
-## Roadmap
-
-- [x] CSV/Excel → SQLite / SQL Server
-- [ ] Incremental loading (upsert + processed-file tracking)
-- [ ] Database source
-- [ ] Web API source
-- [ ] Shopify Admin API source
-- [ ] Scheduled runs with Windows Task Scheduler
 
 ## Tech
 
